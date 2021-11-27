@@ -1,0 +1,5 @@
+name: Publish to Rubygems
+description: Build and publish your gem to Rubygems
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
